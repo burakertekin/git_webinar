@@ -1,4 +1,8 @@
 commands:
 
+pwd - present working directory
+cd - change directory
+ls- list
+
 git clone "repo_link" - remote repoyu locale ceken cmd
 git status - nerdeyim napiyorum ben neyim sorusunun cevabini veren cmd

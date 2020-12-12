@@ -1,10 +1,25 @@
 commands:
 
+TIRNAKLARI DAHIL ETMETYIN AQ
+
 pwd - present working directory
 cd - change directory
 ls- list
+mkdir - make directory
+rmdir - remove directory
 
-git clone "repo_link" - remote repoyu locale ceken cmd
-git status - nerdeyim napiyorum ben neyim sorusunun cevabini veren cmd
+101 - essentials
+git clone "repo_link" >> remote repoyu locale ceken cmd
+git status >> nerdeyim napiyorum ben neyim sorusunun cevabini veren cmd
+git add . >> herseyi ekle
+git commit -am "mesajin" >> save
+git push >> en basit push
 
-neyleyim kosku neyleyim sarayi
+102 - branch management
+git branch >> local deki branchleri listele
+git checkout -b "yeni branch ismi" >> yeni branch yarat ve oraya checkout
+git checkout "branch name" >> o branche gec, yeni yaratma
+git push --set-upstream origin "branch name" >> yeni branch i pushlamak icin
+git branch -d "branch name" >> local branch silmece
+git push origin --delete "branch name" >> silceginiz branch de olmayin, branch name remote branch ini origin remoteundan sil
+

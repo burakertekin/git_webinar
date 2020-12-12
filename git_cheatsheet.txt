@@ -13,3 +13,4 @@ git commit -am "mesajin" >> save
 git push >> en basit push
 git branch >> local deki branchleri listele
 git checkout -b "yeni branch ismi" >> yeni branch yarat ve oraya checkout
+git push --set-upstream origin "branch name" >> yeni branch i pushlamak icin

@@ -3,6 +3,13 @@ commands:
 pwd - present working directory
 cd - change directory
 ls- list
+mkdir - make directory
+rmdir - remove directory
 
-git clone "repo_link" - remote repoyu locale ceken cmd
-git status - nerdeyim napiyorum ben neyim sorusunun cevabini veren cmd
+git clone "repo_link" >> remote repoyu locale ceken cmd
+git status >> nerdeyim napiyorum ben neyim sorusunun cevabini veren cmd
+git add . >> herseyi ekle
+git commit -am "mesajin" >> save
+git push >> en basit push
+git branch >> local deki branchleri listele
+git checkout -b "yeni branch ismi" >> yeni branch yarat ve oraya checkout
